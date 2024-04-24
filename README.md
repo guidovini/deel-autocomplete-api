@@ -6,7 +6,23 @@
 
 ## Description
 
-REST API repo for my Deel Autocomplete app
+REST API repo for my Deel Autocomplete app. Made with Node and NestJS.
+
+## Data
+
+Returns 40 different companies with this structure:
+
+```js
+export class Company {
+  id: string;
+  label: string;
+  industry: string;
+  city: string;
+  employees: string;
+  revenue: string;
+  website: string;
+}
+```
 
 ## Installation
 
